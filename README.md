@@ -10,6 +10,17 @@ loader的本质就是一个`module.exports`暴露出去的一个函数方法
 ### 2、在webpack中实现简单的loader
 
 ```javascript
+module.exports = function (content, map, meta) {
+  // 其中content就是通过loader的test规则匹配到的文件资源内容
+  // map 和 meta 暂时不用了解
+  console.log('loader', content)
+  return content
+}
+```
+
+### 3、在webpack中如何引入你的loader
+
+```javascript
 // webpack.config.js
 const path = require('path');
 
