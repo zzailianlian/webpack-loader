@@ -11,6 +11,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/generator": "^7.18.2",
+    "@babel/parser": "^7.18.4",
+    "@babel/traverse": "^7.18.2",
     "loader-utils": "^2.0.0",
     "schema-utils": "^2.7.1",
     "webpack": "^5.72.1",

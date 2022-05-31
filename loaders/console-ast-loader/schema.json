@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "needRemovedConsoleArray": "array",
+      "description": "输入的needRemovedConsoleArray必须是数组类型"
+    },
+    "consolePrefix": {
+      "type": "object",
+      "properties": {
+        "anyOf": {}
+      }
+    },
+    "description": "可以定义console打印的前缀"
+  },
+  "additionalProperties": false
+},
+"additionalProperties": false
+}
